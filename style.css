@@ -1,0 +1,88 @@
+body {
+    font-family: sans-serif;
+    color: #333;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: #fafafa;
+}
+
+/* Unified link styling */
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #0077cc;
+}
+
+/* Intro section */
+.intro {
+    padding: 30px 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: #eee;
+    border-bottom:  2px solid #ccc;
+
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 2px; */
+}
+
+.photo img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card-info h1 {
+    margin: 0;
+}
+
+.contact-info, .social-links {
+    margin-top: 10px;
+}
+
+.contact-info a,
+.social-links a {
+    margin-right: 10px;
+}
+
+/* Main grid layout */
+.main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    padding: 40px 15%;
+}
+
+.side {
+    padding-left: 20px;
+    border-left: 2px solid #ccc;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #eee;
+    margin-top: 20px;
+    border-top: 2px solid #ccc;
+    /* //box-shadow: rgba(0, 0, 0, 0.1) 2px 0px; */
+
+}
